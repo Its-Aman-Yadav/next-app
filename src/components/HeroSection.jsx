@@ -5,7 +5,8 @@ import { Button } from "./ui/moving-border";
 
 const HeroSection = () => {
   return (
-    <><Spotlight
+    <>
+    <Spotlight
     className="-top-00 left-0 md:left-60 md:-top-20"
     fill="blue"
   />
