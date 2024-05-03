@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Spotlight } from './ui/Spotlight'
+import { Button } from "./ui/moving-border";
 
 const HeroSection = () => {
   return (
@@ -13,7 +14,11 @@ const HeroSection = () => {
         <h1 className='mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400'>Welcome to Open Source</h1>
         <p className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto'>We are Open Source Village, Thank you for visiting us here</p>
         <div className="mt-4">
-            <Link href="#">Join us</Link>
+            <Link href="#">
+              <Button>
+                Join Us
+              </Button>
+              </Link>
          </div>
       </div>
     </div>
